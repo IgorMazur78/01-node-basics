@@ -1,0 +1,33 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "course Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js start",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorMazur78/01-node-basics.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "node.js"
+  ],
+  "author": "Mazur Ihor <spanishman0605@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorMazur78/01-node-basics/issues"
+  },
+  "homepage": "https://github.com/IgorMazur78/01-node-basics#readme",
+  "dependencies": {
+    "uniqid": "^5.3.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
